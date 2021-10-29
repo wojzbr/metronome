@@ -23,11 +23,11 @@ function App() {
       <div id="btn-tap-bpm-wrapper">
         <div id="btn-tap-bpm" onClick={()=>{ calcBPM() }}>TAP</div>
       </div>
-      <div>BPM: {BPM?Math.round(BPM):"-"}</div>
+      <div>BPM: {Math.round(BPM)}</div>
       
       <div id="change-bpm-wrapper">
         <div className="btn-change-bpm" onClick={()=>setBPM(BPM-1)}>-</div>
-        {BPM}
+        {Math.round(BPM)}
         <div className="btn-change-bpm" onClick={()=>setBPM(BPM+1)}>+</div>
       </div>
 
