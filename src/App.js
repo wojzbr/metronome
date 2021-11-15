@@ -48,6 +48,7 @@ function App() {
         
       }}>START</div>
       <div id="metronome-diod" />
+      <div id="clause"><a target="_blank" href="https://icons8.com/icon/Zyo5wDjgJxRW/red-circle" rel="noreferrer">Red Circle</a> favicon by <a target="_blank" href="https://icons8.com" rel="noreferrer">Icons8</a></div>
     </div>
   );
 }

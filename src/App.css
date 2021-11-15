@@ -81,3 +81,13 @@
   align-items: center;
   cursor: pointer;
 }
+#clause {
+  position: absolute;
+  bottom: 10px;
+  font-size: 10px;
+}
+#clause a {
+  text-decoration: none;
+  font-weight: 700;
+  color: rgba(255, 0, 0, 0.8)
+}
