@@ -6,13 +6,16 @@
     height: 300px;
     background: #36447f;
     border-radius: 30px 30px 10px 10px;
+    -moz-box-shadow: inset 0 0 5px #000;
+    -webkit-box-shadow: inset 0 0 5px #000;
+    box-shadow: inset 0 0 5px #000;
 }
 #blackBottomPanel {
     margin: 0 auto;
-    background: black;
+    background: rgb(20, 20, 20);
     height: 50px;
     width: 490px;
-    border-left: 1px solid white;
-    border-right: 1px solid white;
+    border-left: 1px solid darkgray;
+    border-right: 1px solid darkgray;
     z-index: 10;
 }
