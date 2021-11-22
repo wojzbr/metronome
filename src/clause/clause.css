@@ -2,6 +2,10 @@
   position: absolute;
   bottom: 10px;
   font-size: 10px;
+  width: 100%;
+  background: white;
+  text-align: center;
+  z-index: 50;
 }
 #clause a {
     text-decoration: none;

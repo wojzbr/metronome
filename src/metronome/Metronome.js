@@ -9,6 +9,7 @@ const Metronome = () => {
     const [BPM, setBPM] = useState(60);
     const [tickingInterval, setTickingInterval] = useState();
     const [isBeating, setIsBeating] = useState(false)
+    const [turnedOn, setTurnedOn] = useState(false)
   
     const calcBPM = () => {
         if (!lastClick) setLastClick( (new Date()).getTime() )
@@ -26,12 +27,12 @@ const Metronome = () => {
     }
     const beat = () => {
         if(!isBeating){
-            document.getElementById("playPause").style.background="red"
-            setTimeout(()=>document.getElementById("playPause").style.background="black", 100);
+            document.getElementById("playPause").classList.add("redLED")
+            setTimeout(()=>document.getElementById("playPause").classList.remove("redLED"), 100);
   
             setTickingInterval(window.setInterval(()=>{
-              document.getElementById("playPause").style.background="red";
-              setTimeout(()=>document.getElementById("playPause").style.background="black", 100);
+              document.getElementById("playPause").classList.add("redLED")
+              setTimeout(()=>document.getElementById("playPause").classList.remove("redLED"), 100);
             }, (60/BPM) * 1000) )
   
             setIsBeating(true)
@@ -42,11 +43,27 @@ const Metronome = () => {
           }
     }
 
+    const turnOnOff = () => {
+        if(document.getElementById("buttonsSwitchoffOverlay").style.zIndex==="-1") {
+            document.getElementById("buttonsSwitchoffOverlay").style.zIndex="50"
+            document.getElementById("power").classList.remove("redLED")
+            setTurnedOn(false);
+            setIsBeating(false)
+            window.clearInterval(tickingInterval);
+        }
+        else {
+            document.getElementById("buttonsSwitchoffOverlay").style.zIndex="-1"
+            document.getElementById("power").classList.add("redLED")
+            setTurnedOn(true)
+        }
+    }
+
     return(
         <div id="metronomeWrapper">
             <div id="metronome">
                 <Screen BPM={BPM}/>
                 <Buttons
+                    turnOnOff={turnOnOff}
                     changeBPM={changeBPM}
                     tapTempo={tapTempo}
                     beat={beat}

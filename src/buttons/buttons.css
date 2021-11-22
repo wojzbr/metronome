@@ -1,8 +1,8 @@
 #buttonsWrapper {
-    margin: 0 auto;
+    margin: 0 40px;
     background: #36447f;
     height: 45px;
-    width: 420px;
+    width: calc(100% - 80px);
     border-radius: 20px;
     z-index: 20;
     position: relative;

@@ -1,0 +1,8 @@
+#buttonsSwitchoffOverlay {
+    z-index: 50;
+    width: 90%;
+    height: 40px;
+    border-radius: 25px;
+    position: absolute;
+    right: 0;
+}

@@ -1,11 +1,13 @@
 import './buttons.css'
 import Button from '../button/Button';
+import ButtonsSwitchoffOverlay from '../buttonsSwitchoffOverlay/ButtonsSwitchoffOverlay';
 import {AiOutlinePoweroff, AiFillCaretDown, AiFillCaretUp, AiFillCaretRight, AiOutlinePause, AiOutlineSound } from "react-icons/ai"
 
-const Buttons = ({changeBPM, tapTempo, beat}) => {
+const Buttons = ({turnOnOff, changeBPM, tapTempo, beat}) => {
     return (
         <div id="buttonsWrapper">
-            <Button id="power" label={<AiOutlinePoweroff />}/>
+            <ButtonsSwitchoffOverlay />
+            <Button id="power" label={<AiOutlinePoweroff />} onClick={()=>turnOnOff()} />
             <Button className="oval" id="mode" label="MODE"/>
             <Button className="oval" id="select" label="SELECT"/>
             <Button className="oval" id="decreaseTempo" label={<AiFillCaretDown />} onClick={()=>changeBPM(-1)}/>
