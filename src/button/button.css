@@ -4,12 +4,11 @@
     color: white;
     text-align: center;
     font-size: 10px;
+    margin-bottom: 5px;
 }
 .button {
     background: black;
     cursor: pointer;
-    -webkit-box-shadow: 0 0 5px 2px rgba(0,0,0,0.4);
-    -moz-box-shadow: 0 0 5px 2px rgba(0,0,0,0.4);
     box-shadow: 0 0 5px 2px rgba(0,0,0,0.4);
 }
 #power {
