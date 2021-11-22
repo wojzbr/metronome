@@ -5,6 +5,7 @@ function App() {
 
   const [lastClick, setLastClick] = useState();
   const [BPM, setBPM] = useState(60);
+  const [tickingInterval, setTickingInterval] = useState();
 
   const calcBPM = () => {
 
@@ -35,15 +36,17 @@ function App() {
         if(e.target.innerText=="START"){
           document.getElementById("metronome-diod").style.background="red"
           setTimeout(()=>document.getElementById("metronome-diod").style.background="pink", 100);
-          metronomeTicking = window.setInterval(()=>{
+
+          setTickingInterval(window.setInterval(()=>{
             document.getElementById("metronome-diod").style.background="red";
             setTimeout(()=>document.getElementById("metronome-diod").style.background="pink", 100);
-          }, (60/BPM) * 1000)
+          }, (60/BPM) * 1000) )
+
           e.target.innerText="STOP"
         }
-        else {          
+        else if(e.target.innerText=="STOP"){          
           e.target.innerText="START"
-          window.clearInterval(metronomeTicking);
+          window.clearInterval(tickingInterval);
         }
         
       }}>START</div>
