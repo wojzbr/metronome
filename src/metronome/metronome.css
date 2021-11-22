@@ -1,0 +1,19 @@
+#metronomeWrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    /* align-items: center; */
+    width: 500px;
+    height: 300px;
+    background: #36447f;
+    border-radius: 30px 30px 10px 10px;
+}
+#blackBottomPanel {
+    margin: 0 auto;
+    background: black;
+    height: 50px;
+    width: 490px;
+    border-left: 1px solid white;
+    border-right: 1px solid white;
+    z-index: 10;
+}

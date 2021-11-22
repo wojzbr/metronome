@@ -1,8 +1,15 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
 .App {
   display: flex;
   flex-direction: column;
+  justify-content: center;
   align-items: center;
+  padding-top: calc(50vh - 150px);
 }
 #btn-tap-bpm-wrapper {
   width: 120px;

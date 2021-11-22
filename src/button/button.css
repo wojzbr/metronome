@@ -1,0 +1,26 @@
+.buttonWrapper {
+}
+.buttonLabel {
+    color: white;
+    text-align: center;
+    font-size: 10px;
+}
+.button {
+    background: black;
+    cursor: pointer;
+}
+#power {
+    width: 30px;
+    height: 30px;
+    border-radius: 15px;
+}
+.oval {
+    width: 40px;
+    height: 30px;
+    border-radius: 15px;
+}
+.circle {
+    width: 40px;
+    height: 40px;
+    border-radius: 20px;
+}

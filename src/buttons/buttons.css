@@ -1,0 +1,15 @@
+#buttonsWrapper {
+    margin: 0 auto;
+    background: #36447f;
+    height: 45px;
+    width: 420px;
+    border-radius: 20px;
+    z-index: 20;
+    position: relative;
+    top: 20px;
+    display: flex;
+    padding: 5px;
+    justify-content: space-between;
+    flex-direction: row;
+    align-items: flex-end;
+}
