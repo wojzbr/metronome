@@ -1,9 +1,9 @@
 import './screen.css'
 
-const Screen = ({BPM}) => {
+const Screen = ({BPM, turnedOn}) => {
     return (
         <div id="screenWrapper">
-            {Math.round(BPM)}
+            {turnedOn?Math.round(BPM):""}
         </div>
     )
 }

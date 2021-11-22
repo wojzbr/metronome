@@ -1,6 +1,6 @@
 #clause {
-  position: absolute;
-  bottom: 10px;
+  position: fixed;
+  bottom: 0;
   font-size: 10px;
   width: 100%;
   background: white;

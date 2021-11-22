@@ -61,7 +61,7 @@ const Metronome = () => {
     return(
         <div id="metronomeWrapper">
             <div id="metronome">
-                <Screen BPM={BPM}/>
+                <Screen BPM={BPM} turnedOn={turnedOn}/>
                 <Buttons
                     turnOnOff={turnOnOff}
                     changeBPM={changeBPM}
