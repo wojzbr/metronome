@@ -50,6 +50,7 @@ const Metronome = () => {
             setTurnedOn(false);
             setIsBeating(false)
             window.clearInterval(tickingInterval);
+            setBPM(60);
         }
         else {
             document.getElementById("buttonsSwitchoffOverlay").style.zIndex="-1"
