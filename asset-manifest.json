@@ -1,21 +1,21 @@
 {
   "files": {
-    "main.css": "/metronome/static/css/main.4390044c.chunk.css",
-    "main.js": "/metronome/static/js/main.3bdf88a7.chunk.js",
-    "main.js.map": "/metronome/static/js/main.3bdf88a7.chunk.js.map",
+    "main.css": "/metronome/static/css/main.0399cccc.chunk.css",
+    "main.js": "/metronome/static/js/main.755fc338.chunk.js",
+    "main.js.map": "/metronome/static/js/main.755fc338.chunk.js.map",
     "runtime-main.js": "/metronome/static/js/runtime-main.92f3c183.js",
     "runtime-main.js.map": "/metronome/static/js/runtime-main.92f3c183.js.map",
     "static/js/2.58d23075.chunk.js": "/metronome/static/js/2.58d23075.chunk.js",
     "static/js/2.58d23075.chunk.js.map": "/metronome/static/js/2.58d23075.chunk.js.map",
     "index.html": "/metronome/index.html",
-    "static/css/main.4390044c.chunk.css.map": "/metronome/static/css/main.4390044c.chunk.css.map",
+    "static/css/main.0399cccc.chunk.css.map": "/metronome/static/css/main.0399cccc.chunk.css.map",
     "static/js/2.58d23075.chunk.js.LICENSE.txt": "/metronome/static/js/2.58d23075.chunk.js.LICENSE.txt",
     "static/media/index.css": "/metronome/static/media/Roboto-Regular.a8d6ac03.ttf"
   },
   "entrypoints": [
     "static/js/runtime-main.92f3c183.js",
     "static/js/2.58d23075.chunk.js",
-    "static/css/main.4390044c.chunk.css",
-    "static/js/main.3bdf88a7.chunk.js"
+    "static/css/main.0399cccc.chunk.css",
+    "static/js/main.755fc338.chunk.js"
   ]
 }
