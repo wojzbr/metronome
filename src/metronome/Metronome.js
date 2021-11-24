@@ -20,7 +20,8 @@ const Metronome = () => {
         }
     }
     const changeBPM = (num) => {
-        setBPM(BPM+num)
+        if (Math.round(BPM) === 1) setBPM(1)
+        else setBPM(BPM+num);
     }
     const tapTempo = () => {
         calcBPM();
