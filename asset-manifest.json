@@ -1,16 +1,16 @@
 {
   "files": {
     "main.css": "/metronome/static/css/main.258e9332.css",
-    "main.js": "/metronome/static/js/main.2330a42b.js",
+    "main.js": "/metronome/static/js/main.05f38a3c.js",
     "static/media/Roboto-Regular.ttf": "/metronome/static/media/Roboto-Regular.a8d6ac03c7b96b7acb62.ttf",
     "static/media/DigitalNumbers-Regular.woff": "/metronome/static/media/DigitalNumbers-Regular.a1fd499494668b41eb10.woff",
     "static/media/beep.mp3": "/metronome/static/media/beep.250aa10d630dbb27ddbf.mp3",
     "index.html": "/metronome/index.html",
     "main.258e9332.css.map": "/metronome/static/css/main.258e9332.css.map",
-    "main.2330a42b.js.map": "/metronome/static/js/main.2330a42b.js.map"
+    "main.05f38a3c.js.map": "/metronome/static/js/main.05f38a3c.js.map"
   },
   "entrypoints": [
     "static/css/main.258e9332.css",
-    "static/js/main.2330a42b.js"
+    "static/js/main.05f38a3c.js"
   ]
 }
