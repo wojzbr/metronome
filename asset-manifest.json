@@ -1,21 +1,16 @@
 {
   "files": {
-    "main.css": "/metronome/static/css/main.0399cccc.chunk.css",
-    "main.js": "/metronome/static/js/main.755fc338.chunk.js",
-    "main.js.map": "/metronome/static/js/main.755fc338.chunk.js.map",
-    "runtime-main.js": "/metronome/static/js/runtime-main.92f3c183.js",
-    "runtime-main.js.map": "/metronome/static/js/runtime-main.92f3c183.js.map",
-    "static/js/2.58d23075.chunk.js": "/metronome/static/js/2.58d23075.chunk.js",
-    "static/js/2.58d23075.chunk.js.map": "/metronome/static/js/2.58d23075.chunk.js.map",
+    "main.css": "/metronome/static/css/main.258e9332.css",
+    "main.js": "/metronome/static/js/main.2330a42b.js",
+    "static/media/Roboto-Regular.ttf": "/metronome/static/media/Roboto-Regular.a8d6ac03c7b96b7acb62.ttf",
+    "static/media/DigitalNumbers-Regular.woff": "/metronome/static/media/DigitalNumbers-Regular.a1fd499494668b41eb10.woff",
+    "static/media/beep.mp3": "/metronome/static/media/beep.250aa10d630dbb27ddbf.mp3",
     "index.html": "/metronome/index.html",
-    "static/css/main.0399cccc.chunk.css.map": "/metronome/static/css/main.0399cccc.chunk.css.map",
-    "static/js/2.58d23075.chunk.js.LICENSE.txt": "/metronome/static/js/2.58d23075.chunk.js.LICENSE.txt",
-    "static/media/index.css": "/metronome/static/media/Roboto-Regular.a8d6ac03.ttf"
+    "main.258e9332.css.map": "/metronome/static/css/main.258e9332.css.map",
+    "main.2330a42b.js.map": "/metronome/static/js/main.2330a42b.js.map"
   },
   "entrypoints": [
-    "static/js/runtime-main.92f3c183.js",
-    "static/js/2.58d23075.chunk.js",
-    "static/css/main.0399cccc.chunk.css",
-    "static/js/main.755fc338.chunk.js"
+    "static/css/main.258e9332.css",
+    "static/js/main.2330a42b.js"
   ]
 }
