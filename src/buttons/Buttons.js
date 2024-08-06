@@ -8,8 +8,8 @@ const Buttons = ({turnOnOff, changeBPM, tapTempo, beat}) => {
         <div id="buttonsWrapper">
             <ButtonsSwitchoffOverlay />
             <Button id="power" label={<AiOutlinePoweroff />} onClick={()=>turnOnOff()} />
-            <Button className="oval" id="mode" label="MODE"/>
-            <Button className="oval" id="select" label="SELECT"/>
+            <Button className="oval" id="mode" label="MODE" onClick={()=>{}}/>
+            <Button className="oval" id="select" label="SELECT" onClick={()=>{}}/>
             <Button className="oval" id="decreaseTempo" label={<AiFillCaretDown />} onClick={()=>changeBPM(-1)}/>
             <Button className="oval" id="increaseTempo" label={<AiFillCaretUp />} onClick={()=>changeBPM(1)}/>
             <Button className="circle" id="tapReset" label="TAP/RESET" onClick={()=>tapTempo()}/>
